@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* General */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 59px;
+  padding: 7px 0;
+}
+/* Header */
+header {
+  height: 800px;
+  background-image: url(../imgs/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 73px;
+}
+/* Main */
+.introduction {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 45px 0px 65px 0px;
+}
+
+.introduction p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 19px;
+  width: 475px;
+}
+
+.introduction img {
+  display: block;
+  width: 399px;
+  height: 237px;
+}
+
+.caracteristics {
+  background-color: rgba(30, 26, 19, 0.98);
+  padding: 75px 0px;
+}
+
+.caracteristics h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container .item {
+  text-align: center;
+}
+
+.container div i {
+  font-size: 56px;
+  margin-bottom: 17px;
+}
+
+.container p {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding: 73px 0;
+}
+
+.gallery img {
+  display: block;
+  width: 316px;
+  height: 202px;
+  margin: 0 8px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 39px 0;
+  background-color: rgba(30, 26, 19, 0.94);
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
